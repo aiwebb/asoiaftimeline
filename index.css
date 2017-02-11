@@ -1,0 +1,115 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    overflow-x: auto;
+}
+
+#years {
+    width: 500%;
+    height: 30px;
+    position: fixed;
+    /*border-bottom: 1px solid black;*/
+    background-color: white;
+    z-index: 10;
+}
+
+.tick {
+    position: absolute;
+    width: 1px;
+    height: 5px;
+    background-color: black;
+}
+
+.medium.tick {
+    height: 10px;
+}
+
+.major.tick {
+    height: 15px;
+}
+
+.tick-label {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    top: 15px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#events {
+    width: 100%;
+    height: calc(100% - 30px);
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    margin-right: 100px;
+}
+
+.event {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    height: 20px;
+    border: 1px solid black;
+    margin-bottom: 1px;
+}
+
+.event.royalty     {font-style: italic; font-weight: bold;}
+.event.special     {background-color:gold;    color:black;  }
+.event.arryn       {background-color:#0983df; color:white;  }
+.event.baelish     {background-color:#037a03; color:#ededed;}
+.event.baratheon   {background-color:#eecf09; color:black;  }
+.event.blackfyre   {background-color:red;     color:black;  }
+.event.bolton      {background-color:#ff93ca; color:#e14233;}
+.event.bronn       {background-color:#676767; color:#00c000;}
+.event.clegane     {background-color:yellow;  color:black;  }
+.event.connington  {background-color:white;   color:red;    }
+.event.corbray     {background-color:white;   color:black;  }
+.event.dayne       {background-color:#b378d4; color:silver; }
+.event.dondarrion  {background-color:black;   color:purple; }
+.event.duncan      {background-color:white;   color:black;  }
+.event.estermont   {background-color:#98fb98; color:#006400;}
+.event.frey        {background-color:silver;  color:#1f43eb;}
+.event.greyjoy     {background-color:black;   color:gold;   }
+.event.hardyng     {background-color:#e14334; color:white;  }
+.event.karstark    {background-color:black;   color:white;  }
+.event.lannister   {background-color:#990000; color:#ffe53b;}
+.event.maester     {background-color:silver;  color:white;  }
+.event.mallister   {background-color:#650099; color:silver; }
+.event.manderly    {background-color:#019da9; color:#004f00;}
+.event.martell     {background-color:#f28b16; color:#cf2727;}
+.event.mormont     {background-color:#3c843c; color:black;  }
+.event.noye        {background-color:black;   color:white;  }
+.event.redwyne     {background-color:#2d35aa; color:#8b0064;}
+.event.reed        {background-color:#63906b; color:black;  }
+.event.royce       {background-color:#d4603b; color:#2d2d2d;}
+.event.seaworth    {background-color:#5d5d5d; color:black;  }
+.event.selmy       {background-color:white;   color:black;  }
+.event.slynt       {background-color:black;   color:white;  }
+.event.stark       {background-color:white;   color:#909090;}
+.event.stokeworth  {background-color:#009800; color:white;  }
+.event.targaryen   {background-color:black;   color:red;    }
+.event.tarly       {background-color:#009800; color:#e14333;}
+.event.tarth       {background-color:#ff007f; color:#0000ff;}
+.event.tully       {background-color:#0909c0; color:#ae1616;}
+.event.tyrell      {background-color:#0a840a; color:gold;   }
+.event.westerling  {background-color:#ead99e; color:silver; }
+.event.whent       {background-color:yellow;  color:black;  }
+.event.bittersteel {background-color:#d5ac1d; color:red;    }
+.event.bloodraven  {background-color:black;   color:white;  }
+.event.thorne      {background-color:black;   color:white;  }
+.event.thorne      {background-color:black;   color:white;  }
+.event.hotah       {background-color:#f28b16; color:#cf2727;}
+.event.sand        {background-color:#cf2727; color:#f28b16;}
+.event.myastone    {background-color:#d3a730; color:#a034a0;}
+.event.flowers     {background-color:#cfaf7b; color:blue;   }
+.event.jonsnow     {background-color:black;   color:white;  }
+.event.storm       {background-color:black;   color:#eecf09;}
+.event.hollard     {background-color:pink;    color:red;    }
